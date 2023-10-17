@@ -1,0 +1,111 @@
+BODY {
+    
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(-225deg,#3498db 0,#9b59b6 29%,#e74c3c 67%,#f1c40f 100%);
+    background-size: 500% 500%;
+    animation: bg 8s linear infinite;
+  }
+  
+  @keyframes bg {
+    50%{
+      background-position: 100% 100%;
+    }
+  }
+    
+    .public{
+        border-radius: 50%;
+      position: relative;
+      display: inline-block;
+      
+    }
+.DABA{
+    border: 2PX solid black;
+    margin: 0PX;
+    margin-top: 30PX; 
+    width: 300;
+    text-align: center;
+    padding-top: 30PX;
+    text-align-last: right;
+    align-self: center;
+    border-style: dotted;
+    padding: 10PX;
+    float: right;
+    margin-right: 50px;
+    height: 140px;
+  
+    
+}
+.DABA:hover {
+    color: rebeccapurple;
+    border: 3px solid brown;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    border-left-style: dotted;
+    transition-duration: 1.5S;
+}
+.ONEOR{
+    border: 2PX SOLID black;
+    margin: 0PX;
+    margin-top: 30PX; 
+    width: 300;
+    text-align: center;
+    padding-top: 30PX;
+    position:absolute;
+    left: 50PX;
+    text-align-last: right;
+    border-style: dotted;
+    padding: 10PX;
+    transition-duration: 1S;
+    transition-timing-function:linear;
+    height: 140px;
+   
+}
+.ONEOR:hover {
+       background-color: #ff7b29;
+       border-radius: 20%;
+       animation: reverse;
+}   
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: clamp(2rem, 2.8vw, 5rem);
+    font-family: Raleway;
+    font-weight: bold;
+    color:midnightblue
+  }
+  .typewriter {
+    width: 60.5ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #447094;
+    animation: cursor 1s step-start infinite, 
+      text 5s steps(18) alternate infinite;
+      transform-style: preserve-3d;
+  }
+  @keyframes cursor {
+    0%, 100% { 
+      border-color: #212121; 
+    }
+  }
+  
+  @keyframes text {
+    0% { 
+      width: 0; 
+    }
+    100% { 
+      width: 50.5ch; 
+    }
+  }
+  .last{
+    padding-top: 10px;
+  }
+        
